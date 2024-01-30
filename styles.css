@@ -1,0 +1,133 @@
+body {
+    background-color: #f1f1f1;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+header {
+    background-color: orange;
+    padding: 15px;
+    box-shadow: 0 0 3px black;
+}
+
+header li {
+    display: inline;
+    padding-left: 10px;
+
+}
+
+header li a {
+    color: #333;
+    text-decoration: none;
+    padding: 9px;
+    font-family: Georgia;
+    transition: .3s ease;
+}
+
+header li a:hover {
+    color: white;
+}
+
+header ul #contact a {
+    color: white;
+    background-color: #f4114a;
+    border-radius: 30px;
+    float: right;
+    font-size: 17px;
+    position: relative;
+    top: -6px;
+    transition: .3s ease;
+}
+
+header ul #contact a:hover {
+    background-color: black;
+}
+
+.active {
+    color: black;
+    font-size: 20px;
+}
+
+header li img {
+    width: 180px;
+    float: left;
+    margin-left: -70px;
+    margin-top: -15px;
+}
+
+.s {
+    width: 220px;
+    height: 4vh;
+    top: -10npx;
+    float: left;
+    margin-left: 250px;
+    border: 1px solid #a1790a;
+    border-right: none;
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+
+.b {
+    height: 5.8vh;
+    float: left;
+    border: 1px solid #ed175b;
+    background: #f4114a;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 18px;
+
+
+}
+
+.card {
+    width: 200px;
+    padding: 10px;
+    height:370px;
+    margin: 10px;
+    border: 2px solid #ccc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    background-color: #f9f9f9;
+    overflow:hidden;
+}
+
+.card button {
+    border: none;
+    outline: 10px;
+    font-family: sans-serif;
+    padding: 12px;
+    border-radius: 10px;
+    color: black;
+    background-color: orange;
+    text-align: center;
+    cursor: pointer;
+    position:static;
+    width: 100%;
+    font-size: 16px;
+}
+
+.card button:hover {
+
+    background-color: cadetblue;
+
+}
+
+.tools {
+    width: 120px;
+    height: 140px;
+}
+
+
+ul li a:hover{
+    background-color:black;
+}
+.foot{
+    height:20%;
+    background-color: orange;
+}

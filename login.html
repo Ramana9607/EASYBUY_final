@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles2.css">
+    <title>Login Form</title>
+    <script>
+        function validateEmail() {
+            var email = document.getElementById("username").value;
+            var emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$/;
+
+            if (!emailRegex.test(email)) {
+                alert("Invalid mail");
+                return false
+            }
+            return true;
+        }
+
+    </script>
+</head>
+
+<body>
+    <div class="login-container">
+        <img src="logo3.png">
+        <h2></h2>
+        <form action="demo.html">
+            <div class="form-group">
+                <div><label for="username">Email:</label></div>
+                <div> <input type="text" id="username" name="username" placeholder=" Enter your mail" required></div>
+            </div>
+            <div class="form-group">
+                <div> <label for="password">Password:</label></div>
+                <div> <input type="password" id="password" name="password" placeholder="password" required></div>
+            </div>
+            <center>
+                <div>
+                    <button type="submit" onclick=" return validateEmail()" class="p">Login</button>
+                </div><br>
+                <div>
+                    Don't have an existing account?
+                </div><br>
+        </form>
+        <form action="reg1.html">
+            <div><button type="submit" class="p">Register</button></div>
+            </center>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,254 @@
+body {
+    background-color: #f1f1f1;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+header {
+    position:relative;
+    background-color: orange;
+    padding: 15px;
+    box-shadow: 0 0 3px black;
+}
+
+header li {
+    display: inline;
+    padding-left: 10px;
+
+}
+
+header li a {
+    color: #333;
+    text-decoration: none;
+    padding: 9px;
+    font-family: Georgia;
+    transition: .3s ease;
+}
+
+header li a:hover {
+    color: white;
+}
+
+header ul #contact a {
+    color: white;
+    background-color: #f4114a;
+    border-radius: 30px;
+    float: right;
+    font-size: 17px;
+    position: relative;
+    top: -6px;
+    transition: .3s ease;
+}
+
+header ul #contact a:hover {
+    background-color: black;
+}
+
+.active {
+    color: black;
+    font-size: 20px;
+}
+
+header li img {
+    width: 180px;
+    float: left;
+    margin-left: -70px;
+    margin-top: -15px;
+}
+
+.s {
+    width: 220px;
+    height: 4vh;
+    top: -10npx;
+    float: left;
+    margin-left: 250px;
+    border: 1px solid #a1790a;
+    border-right: none;
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+
+.b {
+    height: 5.8vh;
+    float: left;
+    border: 1px solid #ed172c;
+    background: #d60e0e;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 18px;
+
+
+}
+
+.card {
+    width: 200px;
+    padding: 10px;
+    height: 370px;
+    margin: 10px;
+    border: 2px solid #ccc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    background-color: #f9f9f9;
+    overflow: hidden;
+}
+
+.card button {
+    border: none;
+    outline: 10px;
+    font-family: sans-serif;
+    padding: 12px;
+    border-radius: 10px;
+    color: black;
+    background-color: orange;
+    text-align: center;
+    cursor: pointer;
+    position: static;
+    width: 100%;
+    font-size: 16px;
+}
+
+.card button:hover {
+
+    background-color: cadetblue;
+
+}
+
+.tools {
+    width: 120px;
+    height: 140px;
+}
+
+
+ul li a:hover {
+    background-color: black;
+}
+
+.foot {
+    height: 20%;
+    background-color: orange;
+}
+
+.sub-menu-wrap {
+    position: absolute;
+    top: 76px;
+    right: 1%;
+    max-height: 0px;
+    width: 340px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+.sub-menu-wrap.open-menu {
+    max-height: 380px;
+}
+
+.sub-menu {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    margin: 10px;
+}
+
+.user-info {
+    display: flex;
+    align-items: right;
+}
+
+.user-info h3 {
+    font-weight: 500;
+    color: white;
+}
+
+.user-info img {
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.sub-menu hr {
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: #ed175b;
+    margin: 15px 0 10px;
+}
+
+.sub-menu-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #525252;
+    margin: 12px 0;
+}
+
+.sub-menu-link p {
+    width: 60%;
+    font-family: arial;
+    font-size: 17px;
+    font-weight: 500;
+    color:white;
+}
+
+.sub-menu-link img {
+    width: 40px;
+    background: black;
+    border-radius: 50%;
+    padding: 2px;
+    margin-right: 15px;
+
+}
+
+.sub-menu-link span {
+    font-size: 22px;
+    transition: 0.5s;
+    margin-left: 80px;
+}
+
+.sub-menu-link:hover span {
+    transform: translateX(5px);
+}
+
+.sub-menu-link:hover p {
+    font-weight: 600px;
+    transform: translateX(5px);
+}
+.site-footer {
+    background-color:black;
+    color:white;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
+
+.footer-links ul {
+    list-style: none;
+    color:orange;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.footer-links ul li {
+    display: inline;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.social-icons a {
+    color:white;
+    margin-right: 100px;
+}
+
